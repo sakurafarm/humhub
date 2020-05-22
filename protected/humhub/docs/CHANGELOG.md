@@ -1,8 +1,8 @@
 HumHub Change Log
 =================
 
-1.5.2 (Unreleased)
-----------------------
+1.5.2 (May 20, 2020)
+--------------------
 
 - Fix #4031: Notifications with non existing base model breaks notification list
 - Fix #4038: Cannot use yii\helpers\Html as Html because the name is already in use in ProfileBannerImage
@@ -26,6 +26,15 @@ HumHub Change Log
 - Fix #3975: Space chooser directory button visible, even if user is not allowed to access directory
 - Fix #4106: Profile about displays birthdays in current user timezone 
 - Fix #4108: Issues deleting network logo
+- Fix #4119: Oembed not found due to different encoding
+- Fix #4084: Blueimp gallery image assets not published
+- Fix #4069: Duplication of log level filter parameter in pagination url
+- Fix #4075: Use of array_key_fist in space CreateController fails on PHP < 7.3
+- Fix #4033: Checkboxlist profile field does not support `Key => Option` format as described in help text
+- Fix #4125: See password field addition calculates wrong position with container animation
+- Fix #4127: Richtext fullscreen mode within modal or login-container broken
+- Fix #4116: Definitive user deletion doesn't work 
+
 
 
 1.5.1 (April 19, 2020)
